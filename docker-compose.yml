@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  pm:
+    image: nginx:alpine
+    container_name: pm
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/usr/share/nginx/html
