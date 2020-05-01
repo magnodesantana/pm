@@ -1,3 +1,6 @@
 RewriteEngine on
-RewriteRule ^/$   /index.html [L]
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?meusite.com [NC]
+
+
 RewriteRule ^/fundamentos$   /capitulo-01.html [L]
