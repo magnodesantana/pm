@@ -1,5 +1,7 @@
 <IfModule mod_rewrite.c>
+
 RewriteEngine On 
 RewriteBase /
 RewriteRule ^fundamentos(.*)$ capitulo-02.html [NC,QSA,L]
+
 </IfModule>
