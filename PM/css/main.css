@@ -55,7 +55,7 @@ a:visited {
   color: inherit; }
 
 a:hover {
-  text-decoration-color: #ffe000;
+  text-decoration-color: #79bdd6;
   text-decoration-thickness: 0.2em;
   text-decoration-width: 0.2em; }
 
@@ -183,7 +183,7 @@ textarea {
   input[type=password]:focus,
   textarea:focus {
     outline: none;
-    border-color: #ffe000 !important; }
+    border-color: #79bdd6 !important; }
 
 input[type=file] {
   margin: 0 0 0.25em 0; }
@@ -282,19 +282,19 @@ select {
   .button:visited {
     color: #fff; }
   .button:hover {
-    color: #ffe000;
+    color: #79bdd6;
     background-color: #1d2d35;
     cursor: pointer;
     text-decoration: none; }
 
 .button--primary {
   color: #1d2d35;
-  background-color: #ffe000;
-  border-color: #ffe000; }
+  background-color: #79bdd6;
+  border-color: #79bdd6; }
   .button--primary:visited {
     color: #1d2d35; }
   .button--primary:hover {
-    color: #ffe000;
+    color: #79bdd6;
     border-color: #1d2d35; }
 
 .button--secondary {
@@ -308,7 +308,7 @@ select {
   .button--secondary:hover {
     background-color: transparent;
     color: #1d2d35;
-    border-color: #ffe000; }
+    border-color: #79bdd6; }
 
 .button--stacked {
   padding: 0.75em 1em;
@@ -363,7 +363,7 @@ select {
   letter-spacing: 0;
   vertical-align: middle;
   color: #1d2d35;
-  background-color: #ffe000;
+  background-color: #79bdd6;
   border-radius: 1em; }
 @media (min-width: 37.6em) {
   .image-size-75 {
@@ -617,7 +617,7 @@ select {
     top: 50%;
     margin: 0;
     z-index: -1;
-    background-color: #ffe000; }
+    background-color: #79bdd6; }
 
 .segue__text {
   padding: 0 1em;
@@ -685,13 +685,13 @@ video {
     transform: translate(-50%, -50%) scale(2) !important; }
 
 .plyr--full-ui input[type=range] {
-  color: #ffe000 !important; }
+  color: #79bdd6 !important; }
 
 .plyr--video .plyr__control.plyr__tab-focus,
 .plyr--video .plyr__control:hover,
 .plyr--video .plyr__control[aria-expanded=true] {
   color: #1d2d35 !important;
-  background: #ffe000 !important; }
+  background: #79bdd6 !important; }
 
 .plyr__control.plyr__tab-focus {
   box-shadow: 0 0 0 5px rgba(255, 224, 0, 0.5) !important; }
@@ -989,7 +989,7 @@ video {
   padding: 0.5em;
   margin: 1em 0;
   border-radius: 2em;
-  background-color: #ffe000;
+  background-color: #79bdd6;
   color: #1d2d35;
   text-align: center;
   font-size: 85%;
@@ -1019,8 +1019,8 @@ video {
       width: 100%;
       padding: 0.5em;
       margin: 0;
-      background-color: #5d2f86;
-      color: #fff;
+      background-color: #79bdd6;
+      color: #000;
       text-align: center;
       font-size: 75%;
       line-height: 1.5;
@@ -1051,7 +1051,7 @@ video {
   padding: 0 0.5em;
   font-weight: bold; }
   .new-year__message a {
-    color: #ffe000; }
+    color: #79bdd6; }
 .star-banner {
   display: none; }
   @media (min-width: 37.6em) {
@@ -1176,7 +1176,7 @@ video {
     opacity: 0;
     transform: translateX(1.25rem) rotate(10deg);
     transition: all 0.15s ease-out;
-    fill: #ffe000; }
+    fill: #79bdd6; }
   .top-nav__logo .card--back {
     transition-delay: 0.1s; }
   .top-nav__logo:hover .card {
@@ -1207,7 +1207,7 @@ video {
     color: #1d2d35; }
   .top-nav__link:hover {
     color: #1d2d35;
-    text-decoration-color: #ffe000; }
+    text-decoration-color: #79bdd6; }
 
 .mobile-nav {
   transform: translate(-100%, 0);
@@ -1338,7 +1338,7 @@ video {
       width: 31%;
       margin: 1em 0.5em; } }
   .video-set__item:hover .video-set__title span {
-    background-color: #ffe000; }
+    background-color: #79bdd6; }
   .video-set__item:hover .video-set__img:before {
     background-color: rgba(255, 224, 0, 0.4); }
 
