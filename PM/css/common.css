@@ -28,7 +28,7 @@
   .bookshelf__book-summary {
     margin: 0;
     font-size: 75%;
-    color: #1d2d35;
+    color: #000000;
     text-decoration: none !important; }
   
   @media (min-width: 57.5em) {
@@ -116,7 +116,7 @@
       top: 1.5em;
       right: -2.25em;
       padding: 0.25em 2em;
-      color: #1d2d35;
+      color: 000000;
       background-color: #79bdd6;
       font-size: 85%;
       font-weight: bold;

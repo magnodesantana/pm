@@ -1,8 +1,8 @@
-.shapeup-intro {
+.product-manager-intro {
     margin: 2em auto;
     text-align: center; }
     @media (min-width: 57.5em) {
-      .shapeup-intro {
+      .product-manager-intro {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -10,24 +10,25 @@
         text-align: left; } }
   
   @media (min-width: 57.5em) {
-    .shapeup-intro__cover {
+    .product-manager-intro__cover {
       width: 35%; } }
-  .shapeup-intro__cover .book-cover {
+  .product-manager-intro__cover .book-cover {
     margin: 0 auto; }
   
   @media (min-width: 57.5em) {
-    .shapeup-intro__content {
+    .product-manager-intro__content {
       text-align: left;
       width: 60%;
       max-width: 60%; }
-      .shapeup-intro__content h1 {
+      .product-manager-intro__content h1 {
         margin-top: 0; } }
   
   .podcasts {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+  }
   
   .podcasts__episode {
     display: block;
@@ -42,7 +43,8 @@
     .podcasts__episode:hover {
       border-color: #79bdd6; }
     .podcasts__episode img {
-      display: block; }
+      display: block;
+    }
   
   .chapters__block {
     margin-top: 3em; }
