@@ -34,6 +34,9 @@
     display: block;
     width: 33%;
     margin: 0.5em;
+    font-size: 65%;
+    padding: 1em;
+    line-height: 1.5; 
     border: 0.3rem solid #fff;
     box-shadow: -0.4rem 0.4rem 2rem rgba(0, 0, 0, 0.15);
     transition: border-color 0.15s ease-out; }
@@ -41,11 +44,12 @@
       .podcasts__episode {
         width: 22%; } }
     .podcasts__episode:hover {
-      border-color: #79bdd6; }
+      border-color: #46c8e0; }
     .podcasts__episode img {
-      display: block;
+      width: 180px;
+      border-radius: 90px 90px 90px 90px;
     }
-  
+
   .chapters__block {
     margin-top: 3em; }
     @media (min-width: 57.5em) {

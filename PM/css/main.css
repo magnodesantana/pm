@@ -55,7 +55,7 @@ a:visited {
   color: inherit; }
 
 a:hover {
-  text-decoration-color: #79bdd6;
+  text-decoration-color: #46c8e0;
   text-decoration-thickness: 0.2em;
   text-decoration-width: 0.2em; }
 
@@ -183,7 +183,7 @@ textarea {
   input[type=password]:focus,
   textarea:focus {
     outline: none;
-    border-color: #79bdd6 !important; }
+    border-color: #46c8e0 !important; }
 
 input[type=file] {
   margin: 0 0 0.25em 0; }
@@ -194,30 +194,6 @@ select {
   font-size: 85%;
   font-family: inherit;
   vertical-align: middle; }
-@font-face {
-  font-family: 'Graphik';
-  font-style: normal;
-  font-weight: normal;
-  src: url(/assets/Graphik-Regular-Web-745b5a1b9df5f3fab01fc511d3b38b365d2a50f9e6f6a8268f6f994d5ed91d44.woff2) format("woff2"), url(/assets/Graphik-Regular-Web-36a20ba0e775b202ea4c516e93a90b390a3ae495d69b0854e66d744f601327c5.woff) format("woff");
-  font-display: swap; }
-@font-face {
-  font-family: 'Graphik';
-  font-style: normal;
-  font-weight: bold;
-  src: url(/assets/Graphik-Bold-Web-0325388752ec7bb07ef0eef5d9078669087ed501452a4d803c556b13e03c723d.woff2) format("woff2"), url(/assets/Graphik-Bold-Web-1e0056812ec1e2fd3dc9ef458b15a188a912570556fff0b5f721c549f865ccf4.woff) format("woff");
-  font-display: swap; }
-@font-face {
-  font-family: 'Graphik';
-  font-style: italic;
-  font-weight: normal;
-  src: url(/assets/Graphik-RegularItalic-Web-616c5fe57b1d7ce02e6ba006b540c6006aa8e78a029c412b9c5e72dbbdac605d.woff2) format("woff2"), url(/assets/Graphik-RegularItalic-Web-898d5ffeeb14c436570f23194772d4e83784288743df796e37dfe192d8cdb27d.woff) format("woff");
-  font-display: swap; }
-@font-face {
-  font-family: 'Graphik';
-  font-style: italic;
-  font-weight: bold;
-  src: url(/assets/Graphik-BoldItalic-Web-875f58cc63fb1afe5a1016922ec9b881a0526d9b33b5480b3ed4bb8fe4724cf3.woff2) format("woff2"), url(/assets/Graphik-BoldItalic-Web-d75502855f4631e25df7b3e28b6c54c5f7b0a1fe8c20e7df62d69a62f828240e.woff) format("woff");
-  font-display: swap; }
 
 @keyframes field-shake {
   10%, 30%, 50%, 70%, 90% {
@@ -282,19 +258,19 @@ select {
   .button:visited {
     color: #fff; }
   .button:hover {
-    color: #79bdd6;
+    color: #46c8e0;
     background-color: #000000;
     cursor: pointer;
     text-decoration: none; }
 
 .button--primary {
   color: #000000;
-  background-color: #79bdd6;
-  border-color: #79bdd6; }
+  background-color: #46c8e0;
+  border-color: #46c8e0; }
   .button--primary:visited {
     color: #000000; }
   .button--primary:hover {
-    color: #79bdd6;
+    color: #46c8e0;
     border-color: #000000; }
 
 .button--secondary {
@@ -308,7 +284,7 @@ select {
   .button--secondary:hover {
     background-color: transparent;
     color: #000000;
-    border-color: #79bdd6; }
+    border-color: #46c8e0; }
 
 .button--stacked {
   padding: 0.75em 1em;
@@ -363,7 +339,7 @@ select {
   letter-spacing: 0;
   vertical-align: middle;
   color: #000000;
-  background-color: #79bdd6;
+  background-color: #46c8e0;
   border-radius: 1em; }
 @media (min-width: 37.6em) {
   .image-size-75 {
@@ -422,7 +398,7 @@ select {
 .review--big {
   display: block; }
   .review--big p {
-    font-family: "Graphik", "Helvetica Neue", helvetica, "Apple Color Emoji", arial, sans-serif;
+    font-family: "Lato", Sans-serif;
     font-size: 160%;
     font-weight: bold;
     line-height: 1.25; }
@@ -589,7 +565,7 @@ select {
   display: inline-flex;
   flex-direction: column;
   align-items: stretch;
-  font-family: "Graphik", "Helvetica Neue", helvetica, "Apple Color Emoji", arial, sans-serif; }
+  font-family: "Lato", Sans-serif; }
 
 .centered {
   text-align: center !important; }
@@ -617,7 +593,7 @@ select {
     top: 50%;
     margin: 0;
     z-index: -1;
-    background-color: #79bdd6; }
+    background-color: #46c8e0; }
 
 .segue__text {
   padding: 0 1em;
@@ -685,13 +661,13 @@ video {
     transform: translate(-50%, -50%) scale(2) !important; }
 
 .plyr--full-ui input[type=range] {
-  color: #79bdd6 !important; }
+  color: #46c8e0 !important; }
 
 .plyr--video .plyr__control.plyr__tab-focus,
 .plyr--video .plyr__control:hover,
 .plyr--video .plyr__control[aria-expanded=true] {
   color: #000000 !important;
-  background: #79bdd6 !important; }
+  background: #46c8e0 !important; }
 
 .plyr__control.plyr__tab-focus {
   box-shadow: 0 0 0 5px rgba(255, 224, 0, 0.5) !important; }
@@ -978,18 +954,18 @@ video {
   background-color: #fff;
   padding: 1em; }
 .footer {
-  padding: 4em 0 !important; }
+  padding: 1em 0 !important; }
   @media (min-width: 37.6em) {
     .footer {
-      padding: 4em 0 13em 0 !important;
-      background: #79bdd6; } }
+      padding: 1em 0 1em 0 !important;
+      background: #46c8e0; } }
 .hello {
   position: relative;
   z-index: 500;
   padding: 0.5em;
   margin: 1em 0;
   border-radius: 2em;
-  background-color: #79bdd6;
+  background-color: #46c8e0;
   color: #000000;
   text-align: center;
   font-size: 85%;
@@ -1019,7 +995,7 @@ video {
       width: 100%;
       padding: 0.5em;
       margin: 0;
-      background-color: #79bdd6;
+      background-color: #46c8e0;
       color: #000;
       text-align: center;
       font-size: 75%;
@@ -1051,7 +1027,7 @@ video {
   padding: 0 0.5em;
   font-weight: bold; }
   .new-year__message a {
-    color: #79bdd6; }
+    color: #46c8e0; }
 .star-banner {
   display: none; }
   @media (min-width: 37.6em) {
@@ -1176,7 +1152,7 @@ video {
     opacity: 0;
     transform: translateX(1.25rem) rotate(10deg);
     transition: all 0.15s ease-out;
-    fill: #79bdd6; }
+    fill: #46c8e0; }
   .top-nav__logo .card--back {
     transition-delay: 0.1s; }
   .top-nav__logo:hover .card {
@@ -1207,7 +1183,7 @@ video {
     color: #000000; }
   .top-nav__link:hover {
     color: #000000;
-    text-decoration-color: #79bdd6; }
+    text-decoration-color: #46c8e0; }
 
 .mobile-nav {
   transform: translate(-100%, 0);
@@ -1338,7 +1314,7 @@ video {
       width: 31%;
       margin: 1em 0.5em; } }
   .video-set__item:hover .video-set__title span {
-    background-color: #79bdd6; }
+    background-color: #46c8e0; }
   .video-set__item:hover .video-set__img:before {
     background-color: rgba(255, 224, 0, 0.4); }
 
