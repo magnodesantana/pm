@@ -8,7 +8,19 @@
 
   <link rel="stylesheet" type="text/css" href="/css//web-book.css">
   <link rel="stylesheet" href="https://use.typekit.net/xig7qap.css">
-  <script async="" type="text/javascript" src="/js/web-book.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37868320-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-37868320-13');
+</script>
+
+
+<script async="" type="text/javascript" src="/js/web-book.js"></script>
+
 
 
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -88,7 +100,7 @@
 
     <div class="content" data-controller="bookmark anchors tweet" data-target="sidebar.content"
       data-action="click->sidebar#close mouseup->tweet#update input->tweet#update keydown->tweet#update scroll@window->tweet#update"
-      data-bookmark-id="/shapeup">
+      data-bookmark-id="/">
       <template data-target="anchors.iconTemplate"><svg class="icon icon--link" viewBox="0 0 85.69 85.69"
           xmlns="http://www.w3.org/2000/svg">
           <path
